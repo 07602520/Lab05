@@ -8,12 +8,12 @@ SevSeg sevseg;
 
 
 char keymap[KEY_ROWS][KEY_COLS] = {
-  {'0', '4', '8', 'C'},
-  {'1', '5', '9', 'D'},
-  {'2', '6', 'A', 'E'},
-  {'3', '7', 'B', 'F'}};
+ {'F', 'E', 'D', 'C'},
+  {'B', '3', '6', '9'},
+  {'A', '2', '5', '8'},
+  {'0', '1', '4', '7'}};
   
-byte colPins[KEY_COLS] = {9,8,7,6};	   。
+byte colPins[KEY_COLS] = {9,8,7,6};
 byte rowPins[KEY_ROWS] = {5,4,3,2}; 
  
 
